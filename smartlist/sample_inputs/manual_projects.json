@@ -1,0 +1,30 @@
+[
+  {
+    "project_name": "ExampleLiveSale",
+    "source_url": "https://example.com/presale",
+    "website": "https://example.com",
+    "token_symbol": "EXL",
+    "chain": "ethereum",
+    "contracts": ["0xdac17f958d2ee523a2206206994597c13d831ec7"],
+    "status": "live",
+    "sale_type": "presale",
+    "launchpad": "Direct",
+    "start_date": "2026-06-01",
+    "end_date": "2026-07-15",
+    "description": "Example live presale page"
+  },
+  {
+    "project_name": "ExamplePastICO",
+    "source_url": "https://example.org/ico-ended",
+    "website": "https://example.org",
+    "token_symbol": "EXP",
+    "chain": "bsc",
+    "contracts": ["0x55d398326f99059ff775485246999027b3197955"],
+    "status": "past",
+    "sale_type": "ico",
+    "launchpad": "LaunchpadX",
+    "start_date": "2025-01-01",
+    "end_date": "2025-02-10",
+    "description": "Past ICO sold out"
+  }
+]
