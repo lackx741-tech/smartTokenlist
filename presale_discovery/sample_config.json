@@ -1,0 +1,33 @@
+{
+  "discovery": {
+    "manual_projects_file": "sample_inputs/manual_projects.json",
+    "seed_urls_file": "sample_inputs/seed_urls.txt",
+    "search_queries": [
+      "crypto presale live",
+      "past ico sold out",
+      "upcoming token presale"
+    ],
+    "max_search_results": 8,
+    "enable_serpapi": false
+  },
+  "onchain": {
+    "rpc_endpoints": {
+      "ethereum": "${ETH_RPC_URL}",
+      "bsc": "${BSC_RPC_URL}"
+    },
+    "lookback_blocks": 1200,
+    "known_dex_addresses": {
+      "ethereum": [
+        "0x7a250d5630b4cf539739df2c5dacab4c659f2488",
+        "0xe592427a0aece92de3edee1f18e0157c05861564"
+      ],
+      "bsc": [
+        "0x10ed43c718714eb63d5aa57b78b54704e256024e"
+      ]
+    }
+  },
+  "output": {
+    "output_dir": "outputs",
+    "include_csv": true
+  }
+}
